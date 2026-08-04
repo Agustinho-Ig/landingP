@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "roboto";
+    src: url('Roboto/Roboto-VariableFont_wdth\,wght.ttf');
+}
+
+body{ 
+    font-family: roboto;
+.section1 {
+    background-color: #1F2937;
+    height: 150px;
+    
+}
+
+.header {
+    display: flex;
+    background-color: inherit;
+    height: 100px;
+    padding: 5px;
+    color: #F9FAF8;
+    font-family: ;
+
+}
