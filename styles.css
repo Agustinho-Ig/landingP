@@ -4,11 +4,16 @@
 }
 
 body{ 
-    font-family: roboto;
-.section1 {
+    font-family: roboto; 
+;}
+
+.section.up {
     background-color: #1F2937;
-    height: 150px;
     
+}
+.section {
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .header {
@@ -17,6 +22,32 @@ body{
     height: 100px;
     padding: 5px;
     color: #F9FAF8;
-    font-family: ;
+    justify-content: space-between;
+}
 
+.header .logo {
+flex: 5 1 auto;
+font-weight: bold;
+font-size: 24px;
+}
+
+.header .link {
+    flex: 2 1 0;
+    font-weight: 300;
+}
+
+.hero {
+    display: flex;
+    
+}
+
+.hero .title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero .text {
+    Font-size: 18px;
+    color: #E5E7EB;
 }
