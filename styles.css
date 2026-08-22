@@ -9,6 +9,7 @@ body{
 
 .section.up {
     background-color: #1F2937;
+    padding-bottom: 50px;
     
 }
 .section {
@@ -26,7 +27,7 @@ body{
 }
 
 .header .logo {
-flex: 5 1 auto;
+flex: 8 1 auto;
 font-weight: bold;
 font-size: 24px;
 }
@@ -41,6 +42,11 @@ font-size: 24px;
     
 }
 
+.hero .main{
+flex: 1 1 0;
+
+}
+
 .hero .title {
     font-size: 48px;
     font-weight: 900;
@@ -50,4 +56,27 @@ font-size: 24px;
 .hero .text {
     Font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero .main.right{
+    height: 200x;
+    width: 400px;
+    background-color: lightgray;
+    border: 5px red;
+    justify-items: center;
+    align-items: center;
+}
+
+.button {
+    background-color: #3882F6;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    width: 100px;
+    height: 35px;
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+    
+    
 }
