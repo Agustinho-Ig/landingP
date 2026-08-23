@@ -10,11 +10,13 @@ body{
 .section.up {
     background-color: #1F2937;
     padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     
 }
 .section {
-    padding-left: 50px;
-    padding-right: 50px;
+    /*padding-left: 50px;
+    padding-right: 50px;*/
 }
 
 .header {
@@ -88,6 +90,7 @@ flex: 1 1 0;
 .cards-container {
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 50px;   
 }
 
 .card {
@@ -103,4 +106,37 @@ flex: 1 1 0;
     border-color: #3882F6;
     height: 105px;
     border-radius: 10%;
+}
+
+.bottom-quote {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-self: stretch;
+    
+}
+
+.quote{
+    
+    padding-left: 100px;
+    padding-right: 100px;
+}
+   
+
+.quote-text{
+    align-self: center;
+    font-size: 29px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 250;
+}
+.quote.author{
+    
+    
+    text-align: end;
+    font-size: 26px;
+    font-weight: 700;
+    font-style: normal;
+    padding-right: 120px;
 }
