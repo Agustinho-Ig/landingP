@@ -4,7 +4,8 @@
 }
 
 body{ 
-    font-family: roboto; 
+    font-family: roboto;
+    margin: 0 
 ;}
 
 .section.up {
@@ -146,7 +147,7 @@ flex: 1 1 0;
     border-radius: 5px;
     align-content: center;
     color: #F9FAF8;
-    gap: 10px;
+    margin-top: 150px;
 }
 
 .sing-button{
@@ -160,5 +161,13 @@ flex: 1 1 0;
     font-weight: 700;
 }
 
-
+.footer {
+    margin-top: 100px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px;
+    font-size: small;
+    font-weight: 300;
+    text-align: center;
+}
 
