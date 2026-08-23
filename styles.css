@@ -14,10 +14,7 @@ body{
     padding-right: 50px;
     
 }
-.section {
-    /*padding-left: 50px;
-    padding-right: 50px;*/
-}
+
 
 .header {
     display: flex;
@@ -140,3 +137,28 @@ flex: 1 1 0;
     font-style: normal;
     padding-right: 120px;
 }
+
+.call-to-action{
+    background-color: #3882F6;
+    display: flex;
+    padding: 25px 60px;
+    margin: 50px;
+    border-radius: 5px;
+    align-content: center;
+    color: #F9FAF8;
+    gap: 10px;
+}
+
+.sing-button{
+    border: white solid 1px;
+    border-radius: 5px;
+    align-self: center;
+    justify-self: center;
+    margin-left: 100px;
+    padding: 5px 30px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+
